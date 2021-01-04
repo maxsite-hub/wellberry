@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=480" />
+    <title>Wellberry</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="s1">
+        <div class="s1-title">
+          <div class="s1-suptitle">
+            Жевательный мармелад<br />
+            для укрепления иммунитета
+          </div>
+          <h1>Wellberry</h1>
+        </div>
+
+        <div class="s1-block">ваш организм</div>
+        <div class="s1-block-1">под надежной</div>
+        <div class="s1-block-2">защитой!</div>
+        <div class="s1-block-3">
+          <p>Не содержит <span>сахар и желатин</span></p>
+        </div>
+
+        <div class="s1-list">
+          <div class="s1-list-item">
+            <img src="img/icon-s1-3.png" alt="" />
+            <p>Укрепляет иммунную <br />систему</p>
+          </div>
+          <div class="s1-list-item">
+            <img src="img/icon-s1-4.png" alt="" />
+            <p>Очищает организм от шлаков и токсинов</p>
+          </div>
+          <div class="s1-list-item">
+            <img src="img/icon-s1-5.png" alt="" />
+            <p>Борется с вирусами и микробами</p>
+          </div>
+        </div>
+
+        <div class="discount">
+          <p class="discount-text"><span>-70% </span>SALE</p>
+        </div>
+
+        <div class="container">
+          <div class="form-wrapper">
+            <h3>
+              <span class="color-orange">70% СКИДКА</span> <br />
+              по промокоду <span class="health">«health2021»</span>
+            </h3>
+            <div class="timer">
+              <div class="timer-title">До конца акции:</div>
+              <div class="countbox"></div>
+              <div class="timer-body">
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">ч</div>
+                </div>
+                <div class="timer-separate"></div>
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">м</div>
+                </div>
+                <div class="timer-separate"></div>
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">с</div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <!--Container-->
+
+              <form method="post" class="form-top form-footer">
+                <div class="form-item">
+                  <select
+                    name="country"
+                    class="countryselect form-control location"
+                  >
+                    <option selected value="RU">Россия</option>
+                    <option selected value="RU">Выберите вашу страну</option>
+                  </select>
+                </div>
+                <div class="form-item">
+                  <input
+                    type="text"
+                    name="name"
+                    class="field form-control userneme"
+                    placeholder="Введите ваше имя"
+                    value=""
+                  />
+                </div>
+                <div class="form-item">
+                  <input
+                    type="text"
+                    name="phone"
+                    class="field form-control phone"
+                    placeholder="Введите ваш телефон"
+                    value=""
+                  />
+                </div>
+
+                <div class="price">
+                  <div class="price-old">
+                    <div>Cтандартная цена:</div>
+                    <span class="price-old-val"><s>130€</s></span>
+                  </div>
+
+                  <div class="price-new">
+                    <div>Цена со скидкой:</div>
+                    <span class="price-new-val productsum color-orange"
+                      >39€</span
+                    >
+                  </div>
+                </div>
+                <input
+                  type="hidden"
+                  name="productsum"
+                  class="productsum"
+                  value="1 руб."
+                />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input
+                  type="hidden"
+                  name="totalsum"
+                  class="productsum"
+                  value="1 руб."
+                />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+
+                <button type="submit" class="form-btn mm_button">
+                  Сделать заказ
+                </button>
+
+                <div class="form-count">
+                  *количество товара по акции
+                  <span>ограниченно!</span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s2">
+        <div class="container">
+          <h2>
+            Знакомы ли вам <span class="color-yellow">хотя бы два</span> из
+            перечисленных состояний?
+          </h2>
+        </div>
+
+        <div class="s2-item">
+          <div class="s2-item-list">
+            <img src="img/s2-1.png" alt="" />
+            <p>Частые простуды</p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-2.png" alt="" />
+            <p>Сезонные болезни</p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-3.png" alt="" />
+            <p>Проблемы со сном</p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-4.png" alt="" />
+            <p>Перепады настроения</p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-5.png" alt="" />
+            <p>Уязвимость к <br />вирусам</p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-6.png" alt="" />
+            <p>
+              Быстрая <br />
+              утомляемость
+            </p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-7.png" alt="" />
+            <p>Сбои пищеварительной системы</p>
+          </div>
+          <div class="s2-item-list">
+            <img src="img/s2-8.png" alt="" />
+            <p>Нарушение роста <br />волос и ногтей</p>
+          </div>
+        </div>
+        <div class="s2-footer">
+          <h3>Если вы узнали в этом себя - пора бить тревогу!</h3>
+          <p>
+            Перечисленные состояния являются признаками
+            <span class="color-yellow">псниженного иммунитета, </span>
+            работа которого напрямую влияет на Ваше здоровье и самочувствие!
+          </p>
+        </div>
+      </section>
+
+      <section class="s3">
+        <div class="container">
+          <h2>Но выход <span class="color-orange"> есть! </span></h2>
+        </div>
+        <div class="s3-item">
+          <img src="img/s3-bg.png" alt="" />
+          <div class="container">
+            <div class="s3-item-list">
+              <p>
+                <b>Жевательный мармелад Wellberry </b>
+                разработан специально для людей, заботящихся о своем здоровье.
+              </p>
+            </div>
+            <div class="s3-item-list-two">
+              <img class="s2-img" src="img/s3.png" alt="" />
+              <p>
+                Уникальная формула позволит в кратчайшие сроки укрепить
+                иммунитет и очистить организм от шлаков и токсинов.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s4">
+        <img class="s4-img" src="img/s4-bg.jpg" alt="" />
+        <div class="container">
+          <h2>
+            <span class="color-orange"> Мармелад Wellberry </span>
+            изменит вашу жизнь:
+          </h2>
+        </div>
+        <div class="s4-item">
+          <div class="s4-item-list">
+            <img src="img/s4-1.png" alt="" />
+            <p>Перестанете болеть</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-2.png" alt="" />
+            <p>Нормализуете сон</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-3.png" alt="" />
+            <p>Улучшите качество жизни</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-4.png" alt="" />
+            <p>Повысите тонус организма</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-5.png" alt="" />
+            <p>Станете устойчивы к вирусам</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-6.png" alt="" />
+            <p>Будете более продуктивными</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-7.png" alt="" />
+            <p>Восстановите пищеварительную систему</p>
+          </div>
+          <div class="s4-item-list">
+            <img src="img/s4-8.png" alt="" />
+            <p>Очистите организм <br />от шлаков и <br />токсинов</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="s5">
+        <div class="container">
+          <h2>Научная формула крепкого здоровья</h2>
+          <div class="s5-item">
+            <div class="s5-top">
+              <p>
+                <b> В состав мармелада Wellberry входит</b> концентрат
+                витаминов, ягод и природных экстрактов, которые напрямую влияют
+                на функции и состояние иммунокомпетентных клеток, повышая
+                сопротивляемость организма инфекциям.
+              </p>
+              <img class="s5-img" src="img/s5.png" alt="" />
+            </div>
+            <img src="gif/1.gif" alt="" />
+            <div class="s5-footer">
+              <p>
+                Эффективность запатентованного состава Wellberry подтверждается
+                результатами лабораторных исследований и ряда клинических
+                центров.
+              </p>
+              <p>
+                Именно поэтому прием
+                <b
+                  >Wellberry рекомендован ведущими специалистами в области
+                  иммунологии!</b
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s6">
+        <h2>
+          Запатентованный состав
+          <span class="color-orange"> мармелада Wellberry </span>
+        </h2>
+        <div class="container">
+          <div class="s6-list">
+            <div class="s6-list-item">
+              <img src="img/s6-1.png" alt="" />
+              <p class="s6-list-text">Rhodiola rosea extract</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-2.png" alt="" />
+              <p class="s6-list-text">Apple cider vinegar</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-3.png" alt="" />
+              <p class="s6-list-text">Beetroot</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-4.png" alt="" />
+              <p class="s6-list-text">Vitamin B complex</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-5.png" alt="" />
+              <p class="s6-list-text">Organic Tapioca Syrup</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-6.png" alt="" />
+              <p class="s6-list-text">Beeswax</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-7.png" alt="" />
+              <p class="s6-list-text">Black Elder (Sambucus nigra L.)</p>
+            </div>
+            <div class="s6-list-item">
+              <img src="img/s6-8.png" alt="" />
+              <p class="s6-list-text">Raspberry</p>
+            </div>
+          </div>
+          <div class="s6-footer">
+            <img class="s6-img" src="img/s6.png" alt="" />
+            <div class="s6-footer-img">
+              <img src="img/s6-berry.png" alt="" />
+              <img src="img/s6-berry.png" alt="" />
+              <img src="img/s6-berry.png" alt="" />
+              <img src="img/s6-berry.png" alt="" />
+              <img src="img/s6-berry.png" alt="" />
+              <img src="img/s6-berry.png" alt="" />
+            </div>
+            <div class="s6-footer-text">
+              <p>
+                <span>Способ применения:</span> <br />До 6-ти мармеладных конфет
+                в день. В любое время дня.
+              </p>
+            </div>
+          </div>
+          <a href="#form" class="form-btn"> Сделать заказ </a>
+        </div>
+      </section>
+
+      <section class="s7">
+        <div class="container">
+          <h2>
+            В чем особенности<br />
+            <span class="color-yellow"> Wellberry? </span>
+          </h2>
+        </div>
+        <div class="s7-item">
+          <div class="s7-item-list">
+            <img src="img/s7-1.png" alt="" />
+            <p>Укрепляет иммунитет за 1 курс</p>
+          </div>
+          <div class="s7-item-list">
+            <img src="img/s7-2.png" alt="" />
+            <p>Очищает и тонизирует организм</p>
+          </div>
+          <div class="s7-item-list">
+            <img src="img/s7-3.png" alt="" />
+            <p>Не имеет противопоказаний</p>
+          </div>
+          <div class="s7-item-list">
+            <img src="img/s7-4.png" alt="" />
+            <p>Для людей всех возрастов</p>
+          </div>
+          <div class="s7-item-list">
+            <img src="img/s7-5.png" alt="" />
+            <p>Только натуральные ингредиенты в составе</p>
+          </div>
+          <div class="s7-item-list">
+            <img src="img/s7-6.png" alt="" />
+            <p>Рекомендовано ведущими психотерапевтами США и ЕС</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="s8">
+        <div class="container">
+          <h2 class="color-orange">Согласно исследованию,</h2>
+          <p>
+            проведенному среди 28000 жителей США и Канады, респондентами были
+            отмечены следующие изменения в самочувствии:
+          </p>
+          <div class="s8-item">
+            <img class="s8-img" src="img/s8.jpg" alt="" />
+            <ul class="list">
+              <li>99% перестали регулярно болеть</li>
+              <li>у 97% улучшилось самочувствие и настроение</li>
+              <li>у 99% укрепился иммунитет</li>
+              <li>у 96% повысилась устойчивость к вирусам</li>
+              <li>у 84% нормализовался рост волос и ногтей</li>
+              <li>93% отметили снижение сезонных болезней</li>
+              <li>у 88% снизилась нежелательная агрессия</li>
+              <li>98% отметили повышение работоспособности</li>
+              <li>74% отметили нормализацию гормонального фона</li>
+              <li>у 87% повысилась стрессоустойчивость</li>
+              <li>у 98% улучшился сон</li>
+              <li>87% пропали психосоматические расстройства</li>
+              <li>у 94% нормализовалась работа пищеварительной системы</li>
+              <li>у 97% улучшился эмоциональный фон</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="s9">
+        <div class="s9-title">
+          <span>Внимание!</span>
+          <br />
+          Остерегайтесь подделок!
+        </div>
+        <div class="s9-subtitle">
+          Оригинальный мармелад Wellberry можно приобрести только здесь на
+          официальном сайте!
+        </div>
+      </section>
+
+      <section class="s10">
+        <div class="s10-text">
+          <p>
+            К сожалению,
+            <span class="color-yellow"
+              >в связи с высоким спросом на мармелад Wellberry,</span
+            >
+            вынуждены ввести ограничение:
+          </p>
+          <p class="s10-text-fix">не более 10 штук в 1 руки!</p>
+        </div>
+
+        <div class="container">
+          <div class="form-wrapper">
+            <h3>
+              <span class="color-orange">70% СКИДКА</span> <br />
+              по промокоду <span class="health">«health2021»</span>
+            </h3>
+            <div class="timer">
+              <div class="timer-title">До конца акции:</div>
+              <div class="countbox"></div>
+              <div class="timer-body">
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">ч</div>
+                </div>
+                <div class="timer-separate"></div>
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">м</div>
+                </div>
+                <div class="timer-separate"></div>
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">с</div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <!--Container-->
+
+              <form method="post" class="form-top form-footer">
+                <div class="price">
+                  <div class="price-old">
+                    <div>Cтандартная цена:</div>
+                    <span class="price-old-val"><s>130€</s></span>
+                  </div>
+
+                  <div class="price-new">
+                    <div>Цена со скидкой:</div>
+                    <span class="price-new-val productsum color-orange"
+                      >39€</span
+                    >
+                  </div>
+                </div>
+                <input
+                  type="hidden"
+                  name="productsum"
+                  class="productsum"
+                  value="1 руб."
+                />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input
+                  type="hidden"
+                  name="totalsum"
+                  class="productsum"
+                  value="1 руб."
+                />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+
+                <a href="#form" class="form-btn"> Сделать заказ </a>
+
+                <div class="form-count">
+                  *количество товара по акции
+                  <span>ограниченно!</span>
+                </div>
+                <div class="form-footer-block">
+                  <p>
+                    Цена действует на распродажу лимитированной партии 500шт.
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s11">
+        <div class="container">
+          <h2>Мнение <span class="color-orange">эксперта</span></h2>
+          <img src="img/s11.png" alt="" />
+          <p class="s11-name">Gildo Calabrese</p>
+          <p class="s11-prof">
+            Ведущий иммунолог лаборатории фармацевтической разработки и анализа.
+            Автор 8 научных трудов и 74 публикаций в международных рецензируемых
+            журналах.
+          </p>
+          <img src="img/icon-reviews.png" alt="" />
+          <p class="s11-text">
+            <b>
+              У граждан Италии очень сильно снизился общий иммунитет по
+              сравнению с двухгодичной давностью. Виной тому ухудшающаяся с
+              каждым годом экология, стресс и новые вирусы.
+            </b>
+          </p>
+          <p class="s11-text">
+            Поскольку невозможно избежать факторов, вредных для иммунной
+            системы, необходимо укреплять здоровье, чтобы достичь высокого
+            уровня устойчивости к инфекциям. С этой целью я рекомендую своим
+            пациентам Wellberry как самое простое и вкусное решение. В основе
+            мармелада - уникальный синтез природных компонентов, который на
+            биохимическом уровне способствует не только усилению активности
+            иммунных клеток, но и общему улучшению самочувствия, сна и
+            работоспособности. Настоятельно советую мармелад Wellberry, особенно
+            в такое непростое время.
+          </p>
+        </div>
+      </section>
+
+      <section class="s13">
+        <img src="img/s12-bg.png" alt="" />
+        <div class="container">
+          <h2>
+            Отзывы наших
+            <span class="color-orange"> покупателей </span>
+          </h2>
+
+          <div class="s13__slider">
+            <div class="s13-block white-block">
+              <div class="block-name">
+                <img src="img/s13-1.png" alt="" />
+                <p class="name"><b>Daniel</b><br /><span>54 года</span></p>
+                <img src="img/icon-chat.png" alt="" />
+              </div>
+
+              <p>
+                Я очень часто болею, потому что у меня с детства ослабленный
+                иммунитет. За свою жизнь я посадил себе весь желудок и печень,
+                заработав хронический гастрит, принимая различные таблетки и
+                противовирусные препараты. Сейчас мой иммунитет с трудом
+                справляется даже с обычной простудой. Мне надоело травить себя
+                химией и я решил заказать мармелад Wellberry, ведь его мне уже
+                советовал не один человек. И знаете, вот даже сейчас в разгар
+                болезней из-за смены сезонов я чувствую себя хорошо, еще ни разу
+                не переболев. Эффект от мармелада на лицо! Буду приобретать его
+                и дальше, спасибо!
+              </p>
+            </div>
+
+            <div class="s13-block white-block">
+              <div class="block-name">
+                <img src="img/s13-2.png" alt="" />
+                <p class="name"><b>Ilario</b><br /><span>39 лет</span></p>
+                <img src="img/icon-chat.png" alt="" />
+              </div>
+
+              <p>
+                Я работаю в офисе, где много народу и все постоянно кашляют и
+                чихают. Я очень боюсь заразиться, поэтому решил заказать
+                мармелад Wellberry. Слышал в новостях, что масштабные
+                клинические испытания завершились успешно, и препарат не только
+                укрепляет иммунитет, но и в целом улучшает сон, аппетит, снимает
+                стресс. Жаль, что раньше его не изобрели, точно бы себе покупал
+                и улучшал качество жизни! Ем мармелад третий месяц, чувствую
+                себя прекрасно! Спокойно хожу гулять на улицу, чувствуя себя
+                защищенным. А еще мармеладки очень вкусные:)
+              </p>
+            </div>
+
+            <div class="s13-block white-block">
+              <div class="block-name">
+                <img src="img/s13-3.png" alt="" />
+                <p class="name"><b>Elvira</b><br /><span>33 года</span></p>
+                <img src="img/icon-chat.png" alt="" />
+              </div>
+
+              <p>
+                Я в восторге!!! Решила летом заказать мармелад Wellberry для
+                укрепления иммунитета, и в этом сезоне все дни чувствую себя
+                отлично!
+              </p>
+
+              <p>
+                Мармелад очень вкусный, но при этом совсем некалорийный, поэтому
+                получилось даже слегка сбросить вес (ела мармеладки когда
+                пробуждался аппетит вечером:) Удивительная находка, теперь
+                закажу больше для всей семьи! Тем более у вас акция появилась,
+                что очень приятно.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img class="s13-img" src="img/s13.png" alt="" />
+      </section>
+
+      <section class="s14">
+        <div class="container">
+          <h2>
+            Как сделать
+            <span class="color-orange">заказ?</span>
+          </h2>
+
+          <div class="s14-item">
+            <div class="s14-item-list">
+              <div class="s14-img"><img src="img/s14-1.png" alt="" /></div>
+
+              <p>
+                <span>Заявка</span><br />
+
+                Оставьте заявку на нашем сайте, заполнив форму заказа
+              </p>
+            </div>
+
+            <div class="s14-item-list">
+              <div class="s14-img"><img src="img/s14-2.png" alt="" /></div>
+              <p>
+                <span>Подтверждение</span><br />
+
+                Наш менеджер перезвонит вам для уточнения деталей и мы отправим
+                ваш товар
+              </p>
+            </div>
+
+            <div class="s14-item-list">
+              <div class="s14-img"><img src="img/s14-3.png" alt="" /></div>
+              <p>
+                <span>Получение</span><br />
+
+                Оплатите вашу посылку при получении на почте или у курьера
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s1">
+        <div class="s1-title">
+          <div class="s1-suptitle">
+            Жевательный мармелад<br />
+            для укрепления иммунитета
+          </div>
+          <h1>Wellberry</h1>
+        </div>
+
+        <div class="s1-block">ваш организм</div>
+        <div class="s1-block-1">под надежной</div>
+        <div class="s1-block-2">защитой!</div>
+        <div class="s1-block-3">
+          <p>Не содержит <span>сахар и желатин</span></p>
+        </div>
+
+        <div class="s1-list">
+          <div class="s1-list-item">
+            <img src="img/icon-s1-3.png" alt="" />
+            <p>Укрепляет иммунную <br />систему</p>
+          </div>
+          <div class="s1-list-item">
+            <img src="img/icon-s1-4.png" alt="" />
+            <p>Очищает организм от шлаков и токсинов</p>
+          </div>
+          <div class="s1-list-item">
+            <img src="img/icon-s1-5.png" alt="" />
+            <p>Борется с вирусами и микробами</p>
+          </div>
+        </div>
+
+        <div class="discount">
+          <p class="discount-text"><span>-70% </span>SALE</p>
+        </div>
+
+        <div class="container">
+          <div class="form-wrapper">
+            <h3>
+              <span class="color-orange">70% СКИДКА</span> <br />
+              по промокоду <span class="health">«health2021»</span>
+            </h3>
+            <div class="timer">
+              <div class="timer-title">До конца акции:</div>
+              <div class="countbox"></div>
+              <div class="timer-body">
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">ч</div>
+                </div>
+                <div class="timer-separate"></div>
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">м</div>
+                </div>
+                <div class="timer-separate"></div>
+                <div class="timer-item">
+                  <div class="timer-val">
+                    <div class="timer-num">0</div>
+                    <div class="timer-num">0</div>
+                  </div>
+                  <div class="timer-name">с</div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <!--Container-->
+
+              <form method="post" class="form-top form-footer" id="form">
+                <div class="form-item">
+                  <select
+                    name="country"
+                    class="countryselect form-control location"
+                  >
+                    <option selected value="RU">Россия</option>
+                    <option selected value="RU">Выберите вашу страну</option>
+                  </select>
+                </div>
+                <div class="form-item">
+                  <input
+                    type="text"
+                    name="name"
+                    class="field form-control userneme"
+                    placeholder="Введите ваше имя"
+                    value=""
+                  />
+                </div>
+                <div class="form-item">
+                  <input
+                    type="text"
+                    name="phone"
+                    class="field form-control phone"
+                    placeholder="Введите ваш телефон"
+                    value=""
+                  />
+                </div>
+
+                <div class="price">
+                  <div class="price-old">
+                    <div>Cтандартная цена:</div>
+                    <span class="price-old-val"><s>130€</s></span>
+                  </div>
+
+                  <div class="price-new">
+                    <div>Цена со скидкой:</div>
+                    <span class="price-new-val productsum color-orange"
+                      >39€</span
+                    >
+                  </div>
+                </div>
+                <input
+                  type="hidden"
+                  name="productsum"
+                  class="productsum"
+                  value="1 руб."
+                />
+                <input type="hidden" name="delivery" value="0 руб." />
+                <input
+                  type="hidden"
+                  name="totalsum"
+                  class="productsum"
+                  value="1 руб."
+                />
+                <input type="hidden" name="user" value="1" />
+                <input
+                  type="hidden"
+                  name="address"
+                  value="Уточнить у покупателя"
+                />
+
+                <button type="submit" class="form-btn mm_button">
+                  Сделать заказ
+                </button>
+
+                <div class="form-count">
+                  *количество товара по акции
+                  <span>ограниченно!</span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      $(function () {
+        CountBox();
+        $(".slider-arrows").html("");
+
+        $("a[href^='#']").click(function () {
+          var _href = $(this).attr("href");
+          $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+
+          return false;
+        });
+
+        $(".s6-list").slick({
+          dots: false,
+          dotsClass: "header-dots",
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+
+          prevArrow:
+            '<img class="s6-slider_left" <img src="img/icon-arrow-left.png" alt="">',
+          nextArrow:
+            '<img class="s6-slider_right" src="img/icon-arrow-right.png" alt="">',
+        });
+
+        $(".s13__slider").slick({
+          dots: true,
+          dotsClass: "header-dots",
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+
+          prevArrow:
+            '<img class="slider-s13_left" <img src="img/icon-arrow-left.png" alt="">',
+          nextArrow:
+            '<img class="slider-s13_right" src="img/icon-arrow-right.png" alt="">',
+        });
+      });
+    </script>
+  </body>
+</html>
